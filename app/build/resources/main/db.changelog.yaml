@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20201012_init.sql
+      author: Mikolaj Noga
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20201012_init.sql
+  - changeSet:
+      id: 20201221_add_user.sql
+      author: Mikolaj Noga
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20201221_add_user.sql
+  - changeSet:
+      id: 20210116_allezon.sql
+      author: Mikolaj Noga
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210116_allezon.sql

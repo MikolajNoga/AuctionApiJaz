@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  db:
+    image: postgres:13
+    ports:
+    - 5432:5432
+    environment:
+      POSTGRES_DB: jaz
+      POSTGRES_USER: jaz
+      POSTGRES_PASSWORD: jaz!123
